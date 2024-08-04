@@ -10,7 +10,6 @@ import { defineComponent } from 'vue';
 import Cronometro from './Cronometro.vue';
 import Button from './Button.vue';
 
- 
 export default defineComponent({
   name: 'TemporizadorComponente',
   emits: ['aoTemporizadorFinalizado'],
@@ -20,7 +19,7 @@ export default defineComponent({
   },
   data(){
     return {
-      tempoEmSegundos: 0,
+      tempoEmSegundos: 0, 
       cronometro: 0,
       cronometroRodando: false
     }
